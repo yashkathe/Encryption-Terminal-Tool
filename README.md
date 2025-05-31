@@ -15,3 +15,28 @@ Features
 - "Crack Mode" to try decrypting a message with all supported algorithms
 
 - Simple command-line interface
+
+## Algorithms
+
+- --algorithm
+  - --caesar
+  - --vigenere
+
+### Caesar Cipher
+
+- Flags
+  - --mode
+    - encrypt
+    - decrypt
+    - decrypt-force
+  - --text
+  - --shift
+
+### Vigenère Cipher
+
+- Flags
+  - --mode
+    - encrypt
+    - decrypt
+  - --text
+  - --key
